@@ -6,7 +6,7 @@
   * due date: January, 31, 2017
   *
   *This file contians the declaration of the 
-  * Ex1_3 abstract data type.
+  * Ex3_11 abstract data type.
   */
 /**
   *exercise 3_11
@@ -20,7 +20,7 @@ public class Ex3_11 {
 public static void main(String[] args) {
 Scanner input = new Scanner(System.in);
 
-// Prompt user to enter the month an year
+  // Prompt user to enter the month an year
 System.out.print("Enter the month as integer: ");
 int month = input.nextInt();
 System.out.print("Enter the year as integer: ");
@@ -28,7 +28,7 @@ int year = input.nextInt();
 
 boolean leapYear = 
 (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
-// Display the number of days in the month
+  // Display the number of days in the month
 switch (month)
 {
 case 1: System.out.println(
@@ -55,6 +55,6 @@ case 11: System.out.println(
 "November " + year + " had 30 days"); break;
 case 12: System.out.println(
 "December " + year + " had 31 days");
-}
-}
-}
+      }
+     }
+   }
